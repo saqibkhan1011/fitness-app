@@ -1,16 +1,53 @@
-# fitness
+# FitTrack Mini 🏋️‍♀️🏃‍♂️
 
-A new Flutter project.
+A fitness companion app built with Flutter, designed to help users track workouts, calculate BMI, and manage basic health information. Developed as a final-term project for a mobile development course.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🔥 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ **User Authentication**
+- Firebase Authentication (Sign Up / Sign In / Sign Out)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ **Workout Dashboard**
+- List of predefined workout categories
+- Navigation to workout details
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ **BMI Calculator**
+- Input height and weight
+- Real-time BMI calculation with status (Underweight, Normal, Overweight, Obese)
+
+✅ **Profile Page**
+- Display user information
+- Placeholder for edit profile feature
+
+---
+
+## 📱 Screens
+
+- **Login/Signup Pages**
+- **Workout Screen**
+- **Workout Detail Screen**
+- **BMI Calculator**
+- **User Profile**
+
+---
+
+## 📦 Tech Stack
+
+- **Flutter** (Frontend)
+- **Firebase Auth** (Authentication)
+- **Dart** (Programming Language)
+
+---
+
+## 🔐 Firebase Integration
+
+To use Firebase in this project:
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a project
+3. Add an Android app to it
+4. Download `google-services.json`
+5. Place it inside:
+
